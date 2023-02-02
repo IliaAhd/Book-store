@@ -1,3 +1,7 @@
+:root {
+  --font-family: "Great Vibes", cursive;
+}
+
 header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
@@ -7,7 +11,7 @@ header {
 }
 
 .banner-heading::first-letter {
-  font-family: "Great Vibes", cursive;
+  font-family: var(--font-family);
   font-size: 10rem;
   margin-right: 1.5rem;
 }
@@ -32,4 +36,25 @@ header {
   100% {
     transform: scale(1);
   }
+}
+
+.common-title {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 2px 2px 5px #aaa;
+  transition: all .5s;
+  cursor: crosshair;
+}
+
+.common-title::first-letter {
+  font-family: var(--font-family);
+  font-size: 5rem;
+  margin-right: 0.6rem;
+  font-style: normal;
+}
+
+.common-title:hover {
+  transform: translate(-5px, -3px);
+  text-shadow: 2px 5px 20px #aaa;
 }
