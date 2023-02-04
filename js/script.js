@@ -14,3 +14,18 @@ window.onscroll = function () {
     document.querySelector(".gallery").classList.remove("change");
   }
 };
+
+document
+  .querySelector(".writers-accordion")
+  .addEventListener("click", function (event) {
+    const name = event.target.id.split("-");
+    if (name[0] === "button") {
+      document
+        .querySelector("#book-1")
+        .setAttribute("src", `img/writers/${name[1]}-book1.jpg`);
+
+      document
+        .querySelector("#book-2")
+        .setAttribute("src", `img/writers/${name[1]}-book2.jpg`);
+    }
+  });

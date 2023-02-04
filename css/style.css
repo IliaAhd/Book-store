@@ -89,3 +89,8 @@ header {
   transform: translateX(0);
   opacity: 1;
 }
+
+.famous-writers {
+  background: url(/img/writers-bg.jpeg) fixed center no-repeat;
+  background-size: cover;
+}
