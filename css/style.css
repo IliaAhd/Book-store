@@ -143,3 +143,20 @@ header {
   border-right: 10px solid #ddd;
   border-bottom: 15px solid #bbb;
 }
+
+.popular-books {
+  position: relative;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.bg-video {
+  object-fit: cover;
+}
