@@ -191,4 +191,5 @@ header {
 .rotate:hover .back {
   opacity: 1;
   user-select: auto;
+  pointer-events: auto;
 }
