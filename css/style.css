@@ -184,6 +184,10 @@ header {
   transition: all 0.8;
 }
 
+.rotate {
+  perspective: 100rem;
+}
+
 .rotate:hover .book-card {
   transform: rotateY(180deg);
 }
