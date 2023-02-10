@@ -162,3 +162,33 @@ header {
   width: 100%;
   object-fit: cover;
 }
+
+.book-card {
+  position: relative;
+  box-shadow: 5px 15px 50px #aaa;
+  max-width: 25rem;
+  transition: all 0.8s;
+}
+
+.back {
+  position: absolute;
+  background-color: #fefefe;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  transform: rotateY(180deg);
+  transition: all 0.8;
+}
+
+.rotate:hover .book-card {
+  transform: rotateY(180deg);
+}
+
+.rotate:hover .back {
+  opacity: 1;
+  user-select: auto;
+}
