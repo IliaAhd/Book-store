@@ -197,3 +197,8 @@ header {
   user-select: auto;
   pointer-events: auto;
 }
+
+.contact {
+  background: url(../img/header-bg.jpeg) fixed center no-repeat;
+  background-size: cover;
+}
