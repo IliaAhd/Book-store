@@ -202,3 +202,16 @@ header {
   background: url(../img/header-bg.jpeg) fixed center no-repeat;
   background-size: cover;
 }
+
+.items-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../img/items-wrapper-bg.jpg) center no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.floating-item {
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+}
+
