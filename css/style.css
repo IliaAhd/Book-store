@@ -215,3 +215,30 @@ header {
   border-radius: 5px;
 }
 
+.first-item {
+  animation: float 15s infinite;
+}
+.second-item {
+  animation: float 20s ease-in infinite;
+}
+.third-item {
+  animation: float 40s linear infinite;
+}
+.fourth-item {
+  animation: float 30s infinite;
+}
+.fifth-item {
+  animation: float 25s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-60px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
