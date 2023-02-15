@@ -242,3 +242,24 @@ header {
     transform: translateX(0);
   }
 }
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  background: #44444491;
+  font-size: 18px;
+  color: #fefefe;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #fefefe;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background: #44444491;
+  box-shadow: none;
+}
