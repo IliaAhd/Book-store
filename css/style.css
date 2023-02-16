@@ -263,3 +263,12 @@ header {
   background: #44444491;
   box-shadow: none;
 }
+
+@media (max-width: 420px) {
+  .footer-form {
+    border: none !important;
+    width: 100% !important;
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+  }
+}
