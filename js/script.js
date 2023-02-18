@@ -1,3 +1,10 @@
+const btnHam = document.querySelector(".hamburger-menu");
+const nav = document.querySelector(".navigation");
+
+btnHam.addEventListener("click", () => {
+  nav.classList.toggle("change");
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   lightbox.option({
     wrapAround: true,

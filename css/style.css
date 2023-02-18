@@ -21,11 +21,13 @@ body {
   justify-content: center;
   gap: 6px;
   opacity: 0.7;
+  transition: all 0.5s;
 }
 
 .line1,
 .line2,
 .line3 {
+  transition: all 0.5s;
   width: 30px;
   height: 2px;
   background-color: #eee;
@@ -39,16 +41,25 @@ body {
   top: 35px;
   right: 35px;
   z-index: 998;
+  transition: all 0.5s;
 }
 
 .change .line1 {
   transform: rotate(-405deg) translate(-5px, 5px);
+  background-color: #777;
 }
 .change .line2 {
   opacity: 0;
 }
 .change .line3 {
   transform: rotate(405deg) translate(-5px, -5px);
+  background-color: #777;
+}
+.change .hamburger-menu {
+  background-color: #eef0eb !important;
+}
+.change .bg-cover {
+  transform: scale(150);
 }
 
 header {
