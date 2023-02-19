@@ -62,6 +62,12 @@ body {
   transform: scale(150);
 }
 
+.nav-content {
+  position: fixed;
+  z-index: 998;
+  width: 100%;
+}
+
 header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
