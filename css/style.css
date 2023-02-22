@@ -62,10 +62,27 @@ body {
   transform: scale(150);
 }
 
+.navigation {
+  overflow-y: auto;
+}
+
 .nav-content {
   position: fixed;
   z-index: 998;
   width: 100%;
+}
+
+.link-item {
+  font-size: 20px;
+  color: #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.link-item:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  border-radius: 50% 50% 0 0;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 header {
