@@ -1,5 +1,6 @@
 const btnHam = document.querySelector(".hamburger-menu");
 const nav = document.querySelector(".navigation");
+const date = document.querySelector(".date");
 
 btnHam.addEventListener("click", () => {
   nav.classList.toggle("change");
@@ -36,3 +37,5 @@ document
         .setAttribute("src", `img/writers/${name[1]}-book2.jpg`);
     }
   });
+
+date.textContent = new Date().getFullYear();
